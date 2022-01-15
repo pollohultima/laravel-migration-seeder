@@ -8,6 +8,7 @@ use App\Models\Flight;
 class FlightsController extends Controller
 {
     public function flights(){
+        
 
         $flights= Flight::all();
 
