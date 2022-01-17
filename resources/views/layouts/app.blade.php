@@ -57,8 +57,8 @@
         @yield('content')
     </main>
 
-    <footer>
-
+    <footer class="fixed-bottom">
+        <p class="text-center">&copy; Matteo Polonio - Booleaner</p>
     </footer>
 </body>
 
