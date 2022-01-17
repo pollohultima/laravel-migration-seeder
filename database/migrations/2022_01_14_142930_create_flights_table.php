@@ -19,6 +19,7 @@ class CreateFlightsTable extends Migration
             $table->string('airline');
             $table->string('departure');
             $table->string('arrival');
+            $table->string('price');
         });
     }
 
