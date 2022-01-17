@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'FlightsController@flights');
+Route::get('/blog', 'BlogController@blog');

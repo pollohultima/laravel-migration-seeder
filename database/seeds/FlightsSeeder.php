@@ -13,7 +13,7 @@ class FlightsSeeder extends Seeder
      */
     public function run(Faker $faker)
     {
-        for ($i=0; $i < 20; $i++) { 
+        for ($i=0; $i < 30; $i++) { 
             
             $_flight = new Flight();
             $_flight -> name = $faker -> words(5, true);
