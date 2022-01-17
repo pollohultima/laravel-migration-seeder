@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <header class="bg-light">
-        <div class="container ">
+    <header class="bg-light fixed-top">
+        <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light ">
                 <div class="container-fluid">
                     <a class="navbar-brand col-1" href="#">
@@ -52,7 +52,14 @@
 
 
     </header>
-    @yield('content')
+
+    <main>
+        @yield('content')
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 
 </html>

@@ -14,9 +14,10 @@ class BlogSeeder extends Seeder
     public function run(Faker $faker)
     {
         for ($i=0; $i < 20; $i++) { 
-             $_blog = new Blog();
+            $_blog = new Blog();
             $_blog -> title = $faker -> sentence();
-            $_blog -> text = $faker -> text(300);
+            $_blog -> text = $faker -> text(1000);
+            $_blog -> author = $faker -> name();
             $_blog -> save();
         }
     }

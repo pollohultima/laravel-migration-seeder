@@ -8,7 +8,7 @@
         <div class="container py-3">
 
             @foreach ($blogs as $blog)
-                <div class="articles_wrapper d-flex justify-content-between text-center py-2">
+                <div class="articles_wrapper py-2">
                     <h3>{{ $blog->title }}</h3>
                     <p>{{ $blog->text }}</p>
                 </div>

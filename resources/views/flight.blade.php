@@ -13,7 +13,7 @@
                     <div class="col-2">
                         <h4>Airline:</h4>
                         <p>
-                            {{ $flight->airline }}
+                            {{ $flight->airline }} Airlines
                         </p>
                     </div>
 
@@ -27,7 +27,7 @@
                     </div>
                     <div class="col-2">
                         <h4>Price:</h4>
-                        <p>{{ $flight->price }}</p>
+                        <p>{{ $flight->price }} $</p>
                     </div>
                 </div>
             @endforeach
